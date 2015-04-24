@@ -7,4 +7,3 @@ My Highest Score: 331,665
 
 AI Highest Score: 0
 
-Let's go!

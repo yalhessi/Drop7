@@ -1,0 +1,221 @@
+MinimaxPlayerDepth4 vs Random
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 W B W B W B 
+2 B W B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player B's turn
+[0, 0, 0, 0]
+  0 1 2 3 4 5 
+0 . W B W B W 
+1 W B W B W B 
+2 B W B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player W's turn
+[0, 1, 0, 1]
+  0 1 2 3 4 5 
+0 . . B W B W 
+1 W B W B W B 
+2 B W B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player B's turn
+[2, 0, 0, 0]
+  0 1 2 3 4 5 
+0 B . B W B W 
+1 . B W B W B 
+2 . W B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player W's turn
+[2, 1, 0, 1]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . . W B W B 
+2 . . B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player B's turn
+[1, 3, 1, 1]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . B . . W B 
+2 . . B W B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player W's turn
+[2, 3, 2, 1]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . B . . W B 
+2 . W . . B W 
+3 W B W B W B 
+4 B W B W B W 
+5 W B W B W B 
+
+player B's turn
+[4, 2, 2, 2]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . B . . W B 
+2 . W B . B W 
+3 W B . B W B 
+4 B W . W B W 
+5 W B W B W B 
+
+player W's turn
+[2, 1, 2, 3]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . B . . W B 
+2 . . . W B W 
+3 W B . B W B 
+4 B W . W B W 
+5 W B W B W B 
+
+player B's turn
+[2, 4, 2, 2]
+  0 1 2 3 4 5 
+0 B W B W B W 
+1 . B . . W B 
+2 . . B . . W 
+3 W B . B W B 
+4 B W . W B W 
+5 W B W B W B 
+
+player W's turn
+[0, 1, 2, 1]
+  0 1 2 3 4 5 
+0 B . B W B W 
+1 . . . . W B 
+2 . W B . . W 
+3 W B . B W B 
+4 B W . W B W 
+5 W B W B W B 
+
+player B's turn
+[3, 1, 1, 1]
+  0 1 2 3 4 5 
+0 B . B W B W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . . B W B 
+4 B W . W B W 
+5 W B W B W B 
+
+player W's turn
+[3, 4, 3, 2]
+  0 1 2 3 4 5 
+0 B . B W B W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . W . . B 
+4 B W . W B W 
+5 W B W B W B 
+
+player B's turn
+[0, 4, 2, 4]
+  0 1 2 3 4 5 
+0 B . B W . W 
+1 . B . . . B 
+2 . . B . B W 
+3 W . W . . B 
+4 B W . W B W 
+5 W B W B W B 
+
+player W's turn
+[5, 4, 1, 4]
+  0 1 2 3 4 5 
+0 B . B W . W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . W . . B 
+4 B W . W . W 
+5 W B W B . B 
+
+player B's turn
+[5, 3, 3, 3]
+  0 1 2 3 4 5 
+0 B . B W . W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . W B . B 
+4 B W . . . W 
+5 W B W . . B 
+
+player W's turn
+[3, 2, 3, 4]
+  0 1 2 3 4 5 
+0 B . B W . W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . . . W B 
+4 B W . . . W 
+5 W B W . . B 
+
+player B's turn
+[0, 2, 0, 4]
+  0 1 2 3 4 5 
+0 B . . . B W 
+1 . B . . W B 
+2 . . B . . W 
+3 W . . . W B 
+4 B W . . . W 
+5 W B W . . B 
+
+player W's turn
+[0, 5, 0, 3]
+  0 1 2 3 4 5 
+0 B . . W . . 
+1 . B . . W B 
+2 . . B . . W 
+3 W . . . W B 
+4 B W . . . W 
+5 W B W . . B 
+
+player B's turn
+[3, 5, 3, 3]
+  0 1 2 3 4 5 
+0 B . . W . . 
+1 . B . . W B 
+2 . . B . . W 
+3 W . . B . . 
+4 B W . . . W 
+5 W B W . . B 
+
+player W's turn
+[2, 5, 0, 5]
+  0 1 2 3 4 5 
+0 B . . W . W 
+1 . B . . W . 
+2 . . B . . . 
+3 W . . B . . 
+4 B W . . . W 
+5 W B W . . B 
+
+player B's turn
+[4, 0, 2, 0]
+  0 1 2 3 4 5 
+0 B . . W . W 
+1 . B . . W . 
+2 B . B . . . 
+3 . . . B . . 
+4 . W . . . W 
+5 W B W . . B 
+
+player W's turn
+Game over: Random loses.
