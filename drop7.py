@@ -20,7 +20,7 @@ class Drop7(object):
 	"""
 	This class implements Drop7
 	"""
-	def __init__(self, verbose):
+	def __init__(self, verbose=False):
 		if verbose: print "Begin Drop7 __init__"
 		self.board = [[] for i in range(7)]
 		self.score = 0

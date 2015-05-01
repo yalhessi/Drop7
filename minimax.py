@@ -1,4 +1,4 @@
-from konane import *
+from drop7 import *
 from random import random, randrange
 
 class MinimaxNode(object):
@@ -10,12 +10,11 @@ class MinimaxNode(object):
 
 class MinimaxPlayer(Konane, Player):
     def __init__(self, size, depthLimit, verbose=False):
-        Konane.__init__(self, size) # construct the game
-        Player.__init__(self)       # construct the player
-        self.limit = depthLimit     # cutoff level of search 
-        self.verbose = verbose      # flag used to view debugging messages
-        self.bestScore = 1000       # best possible score for maximizer
-        self.worstScore = -1000     # worst possible score for maximizer
+        Drop7.__init__(self)           # construct the game
+        self.limit = depthLimit        # cutoff level of search 
+        self.verbose = verbose         # flag used to view debugging messages
+        self.bestScore = 1000000       # best possible score for maximizer
+        self.worstScore = -1000000     # worst possible score for maximizer
 
     def initialize(self, side):
         self.name = "MinimaxPlayerDepth" + str(self.limit)
